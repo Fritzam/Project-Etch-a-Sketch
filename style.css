@@ -5,6 +5,14 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: aliceblue;
+
 }
 
 html, body {
@@ -19,9 +27,34 @@ html, body {
     height: 10%;
 }
 
-.header_text_container {
-    font-style: sans-serif;
-    font-size: 36px;
-    font-weight: bold;
+.sketcher {
+    border: 10px red solid;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 10%;
+    background-color: #1F2937;
+}
+
+.footer_text_container {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 5px;
+
+}
+
+p {
+    margin: 0;
+}
+
+a {
     color: aliceblue;
 }
