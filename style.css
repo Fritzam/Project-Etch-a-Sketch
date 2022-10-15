@@ -1,0 +1,27 @@
+html {
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 10%;
+}
+
+.header_text_container {
+    font-style: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: aliceblue;
+}
